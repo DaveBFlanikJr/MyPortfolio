@@ -10,7 +10,6 @@
   padding-right: 68px;
   margin-top: 3rem;
   border-radius: 1rem;
-  padding-top: 4rem;
   overflow: hidden;
 }
 
@@ -63,19 +62,9 @@
   display: inline-block;
   margin-right: 1.5rem
 }
-.social-icon {
-font-size: 32px;
-color: rgb(220,220,220);
-margin: 8px 24px;
-}
 
-.social-icon:hover {
-  background-color: rgb(110, 110, 110);
-  color: white;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-}
-
-.social-link {
+.social-link:link,
+.social-link:visited {
   border: 2px solid rgb(143, 217, 143);
   border-radius: 1rem;
   padding: 0.2rem 1rem;
@@ -89,6 +78,12 @@ margin: 8px 24px;
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0,0,0,.2); /* First value is x, 2nd is Y and 3rd is for blur*/
 }
+
+.social-link:active {
+  transform: translateY(-1px) ;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
 /**********************/
 /*   MAX WIDTH 900PX  */
 /**********************/
