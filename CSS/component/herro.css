@@ -1,0 +1,117 @@
+.hero-container {
+  width: 100%;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding-left: 68px;
+  padding-right: 68px;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  padding-top: 4rem;
+  overflow: hidden;
+}
+
+.about {
+  height: auto;
+  margin: 15px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 5vh;
+  padding-top: 5rem;
+}
+
+.inner-wrapper {
+  padding: 0 33px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+.hero-avatar {
+  border-radius: 50%;
+  margin: 0 2rem;
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 0 0 12px #d7d7d7, 0 0 24px #868686, 0 0 36px #cacaca;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  padding: 0 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.small-bio {
+  letter-spacing: 1px;
+  color: #5F6F81;
+  min-width: 250px;
+  line-height: 1.7;
+}
+.list-inline {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-right: 1.5rem
+}
+.social-icon {
+font-size: 32px;
+color: rgb(220,220,220);
+margin: 8px 24px;
+}
+
+.social-icon:hover {
+  background-color: rgb(110, 110, 110);
+  color: white;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.social-link {
+  border: 2px solid rgb(143, 217, 143);
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  text-decoration: none;
+  color: rgb(143, 217, 143);
+  font-weight: bold;
+  transition: 300ms ease-in-out;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2); /* First value is x, 2nd is Y and 3rd is for blur*/
+}
+/**********************/
+/*   MAX WIDTH 900PX  */
+/**********************/
+@media (max-width: 990px) {
+  .hero-content {
+    margin-top: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .small-bio {
+    max-width: 70%;
+    display: flex;
+  }
+
+  .socials-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .hero-avatar {
+    width: 10rem;
+    height: 10rem;
+  }
+}
