@@ -143,11 +143,11 @@
 } */
 
 .section {
-    color: black;
-    width: 20rem;
-    margin: 0 auto;
-    text-align: center;
-    padding: 5rem;
+  color: black;
+  width: 20rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem;
 }
 
 .project-image {
@@ -156,7 +156,7 @@
   object-position: center;
   object-fit: cover;
   z-index: 1;
-  box-shadow: 0 0.5rem 0.5rem rgba(10,10,10,0.4);
+  box-shadow: 0 0.5rem 0.5rem rgba(10, 10, 10, 0.4);
 }
 
 .project {
@@ -166,7 +166,7 @@
 .divider {
   height: 2px;
   border-radius: 1px;
-  background-color: rgba(10,10,10,0.2);
+  background-color: rgba(10, 10, 10, 0.2);
   width: 100%;
 }
 
@@ -208,4 +208,11 @@ i {
 .card-p {
   margin-top: 0;
   margin-bottom: 2rem;
+}
+
+.product-img {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  max-width: 80%;
+  height: 80%;
 }
